@@ -5,5 +5,5 @@ service MyService {
     entity RequestItems as projection on harika.RequestItems;
     entity Plants as projection on harika.Plants;
     entity Materials as projection on harika.Materials;
-    action local() returns String;
+    // action local() returns String;
 }
